@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+def greetings(name="noble stranger"):
+    if not isinstance(name, str):
+        print("Error! It was not a name.")
+    else:
+        print(f"Hello, {name}.")
+
+
+greetings("Worajak")
+greetings("Kom")
+greetings()
+greetings(42)
