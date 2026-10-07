@@ -4,8 +4,8 @@ import sys
 if len(sys.argv) != 2:
     print("none")
 else:
-    z_characters = [character for character in sys.argv[1] if character == "z"]
-    if z_characters:
-        print("".join(z_characters))
+    zman = [character for character in sys.argv[1] if character == "z"]
+    if zman:
+        print("".join(zman))
     else:
         print("none")
