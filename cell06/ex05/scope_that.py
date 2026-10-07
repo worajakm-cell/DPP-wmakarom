@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-def addone (num):
-    num += 1
-    return num
+def plus_one(number):
+    number = number + 1 
+    print(f"Inside the function, number is {number}")
 
-num = 5
-print(num)
-num = addone(num)
-print(num)
-    
+my_number = 5
+print(f"Before calling the function, my_number is {my_number}")
+
+plus_one(my_number)
+print(f"After calling the function, my_number is {my_number}")
