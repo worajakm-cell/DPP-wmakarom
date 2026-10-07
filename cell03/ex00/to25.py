@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from os import chmod
 number = int(input("Please enter a number: "))
 if number > 25:
     print("ERROR")
